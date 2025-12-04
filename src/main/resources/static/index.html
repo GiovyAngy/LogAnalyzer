@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Log Analyzer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>📋 History of the analyses</h2>
+            <p>List of saved sessions</p>
+        </div>
+
+        <div id="sessionsList" class="sessions-container">
+           
+            <p style="color:#999;text-align:center;padding:12px;">Loading...</p>
+        </div>
+    </aside>
+
+    <main class="content">
+        <div class="header">
+            <h1>🔍 Log Analyzer</h1>
+            <p>Upload files or paste text to analyse logs</p>
+        </div>
+
+        <div id="errorAlert" class="alert alert-error"></div>
+        <div id="successAlert" class="alert alert-success"></div>
+
+        <div class="upload-section">
+            <div id="dropZone" class="drop-zone">
+                <div style="font-size:40px;">📁</div>
+                <h3>Drag & Drop Log Files</h3>
+                <p>or click to select</p>
+                <label for="fileInput" class="file-input-label">Select file</label>
+                <input id="fileInput" type="file" multiple accept=".log,.txt" />
+            </div>
+
+            <!-- Lista dei file caricati (pills) -->
+            <div id="fileList"></div>
+
+            <div class="textarea-container">
+                <h4>Or paste the log text directly:</h4>
+                <textarea id="logTextArea" placeholder="Paste the content here..."></textarea>
+            </div>
+
+            <div class="action-buttons">
+                <button id="analyzeBtn" class="btn btn-primary">🚀 Analyse Logs</button>
+                <button id="saveBtn" class="btn btn-secondary">💾 Save Session</button>
+            </div>
+
+            <div id="loading" class="loading">
+                <div style="display:inline-block;width:40px;height:40px;border:4px solid rgba(0,0,0,0.08);border-top:4px solid #667eea;border-radius:50%;animation:spin 1s linear infinite"></div>
+                <p style="margin-top:8px;color:#555">Analysis in progress...</p>
+            </div>
+        </div>
+
+        <div id="resultsSection" class="results-section">
+            <div id="resultsContainer"></div>
+        </div>
+    </main>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

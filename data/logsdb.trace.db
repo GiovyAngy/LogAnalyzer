@@ -1,0 +1,20 @@
+2025-12-04 14:09:11.483871+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "ANALYSIS_SESSION" nicht gefunden (diese Datenbank ist leer)
+Table "ANALYSIS_SESSION" not found (this database is empty); SQL statement:
+select as1_0.id,as1_0.created_at,as1_0.file_name,as1_0.original_text from analysis_session as1_0 [42104-232]
+2025-12-04 14:09:21.341175+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "ANALYSIS_SESSION" nicht gefunden (diese Datenbank ist leer)
+Table "ANALYSIS_SESSION" not found (this database is empty); SQL statement:
+insert into analysis_session (created_at,file_name,original_text,id) values (?,?,?,default) [42104-232]
+2025-12-04 14:22:50.186246+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "ANALYSIS_SESSION" nicht gefunden (diese Datenbank ist leer)
+Table "ANALYSIS_SESSION" not found (this database is empty); SQL statement:
+select as1_0.id,as1_0.created_at,as1_0.file_name,as1_0.original_text from analysis_session as1_0 [42104-232]
+2025-12-04 14:27:17.289877+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "ANALYSIS_SESSION" nicht gefunden (diese Datenbank ist leer)
+Table "ANALYSIS_SESSION" not found (this database is empty); SQL statement:
+select as1_0.id,as1_0.created_at,as1_0.file_name,as1_0.original_text from analysis_session as1_0 [42104-232]
+2025-12-04 14:27:31.838419+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "ANALYSIS_SESSION" nicht gefunden (diese Datenbank ist leer)
+Table "ANALYSIS_SESSION" not found (this database is empty); SQL statement:
+insert into analysis_session (created_at,file_name,original_text,id) values (?,?,?,default) [42104-232]
