@@ -96,7 +96,7 @@
       }
       fileListDiv.style.display = loadedFiles.length ? 'flex' : 'none';
       currentFileName = loadedFiles.length > 1 ? `${loadedFiles.length} files` : (loadedFiles[0] && loadedFiles[0].name) || null;
-      showSuccess(`${loadedFiles.length} file caricati`);
+      showSuccess(`${loadedFiles.length} files uploaded`);
     }
 
     /* ---------- Analyze & Save ---------- */
