@@ -195,4 +195,4 @@ Pull requests and feature suggestions are welcome!
  
 ### 🧠 Author
  
-Giovanni Angileri  [kontakt](https://giovyangy.github.io/Lebenlauf/index.html) 
+Giovanni Angileri  [kontakt](https://giovyangy.github.io/Lebenlauf/index.html#kontakt) 
